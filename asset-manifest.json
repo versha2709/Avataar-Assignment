@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aaae370.css",
-    "main.js": "/static/js/main.59df1984.js",
-    "index.html": "/index.html",
-    "main.3aaae370.css.map": "/static/css/main.3aaae370.css.map",
-    "main.59df1984.js.map": "/static/js/main.59df1984.js.map"
+    "main.css": "/Avataar-Assignment/static/css/main.3aaae370.css",
+    "main.js": "/Avataar-Assignment/static/js/main.59df1984.js",
+    "index.html": "/Avataar-Assignment/index.html",
+    "main.3aaae370.css.map": "/Avataar-Assignment/static/css/main.3aaae370.css.map",
+    "main.59df1984.js.map": "/Avataar-Assignment/static/js/main.59df1984.js.map"
   },
   "entrypoints": [
     "static/css/main.3aaae370.css",
