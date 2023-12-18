@@ -1,0 +1,44 @@
+// ImageSlider.scss
+.slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 40px; 
+
+  }
+  
+  .active {
+    transform: translateX(0);
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .left-arrow {
+    left: 100px;
+  }
+  
+  .right-arrow {
+    right: 100px;
+  }
+  
