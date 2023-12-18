@@ -36,6 +36,13 @@ $xl: 75em;
             @content;
         }
     }
+    @if $point == sm
+    {
+        @media(min-width : $sm)
+        {
+            @content;
+        }
+    }
     
 
 }

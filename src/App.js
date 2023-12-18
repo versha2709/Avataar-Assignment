@@ -13,7 +13,7 @@ function App() {
       <Header />
       <div className="container">
       <div className="header">
-        <h1 className="title"> Featured Products</h1>
+        <h1 className="title">Featured Products</h1>
         <h2 className="subtitle">Explore and discover a variety of products</h2>
       </div>
     </div>

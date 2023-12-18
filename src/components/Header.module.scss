@@ -15,7 +15,13 @@
         margin: 0 auto;
         padding: 0 $spacing-md;
         @include breakpoint(md) {
+            padding: 0 $spacing-md;
+        }
+        @include breakpoint(lg) {
             padding: 0 $spacing-lg;
+        }
+        @include breakpoint(sm) {
+            padding: 0 $spacing-sm;
         }
         transition: 0.3s ease padding;
 
