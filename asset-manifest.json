@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Avataar-Assignment/static/css/main.3aaae370.css",
-    "main.js": "/Avataar-Assignment/static/js/main.59df1984.js",
+    "main.css": "/Avataar-Assignment/static/css/main.1789d0b2.css",
+    "main.js": "/Avataar-Assignment/static/js/main.cfd02ad1.js",
     "index.html": "/Avataar-Assignment/index.html",
-    "main.3aaae370.css.map": "/Avataar-Assignment/static/css/main.3aaae370.css.map",
-    "main.59df1984.js.map": "/Avataar-Assignment/static/js/main.59df1984.js.map"
+    "main.1789d0b2.css.map": "/Avataar-Assignment/static/css/main.1789d0b2.css.map",
+    "main.cfd02ad1.js.map": "/Avataar-Assignment/static/js/main.cfd02ad1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aaae370.css",
-    "static/js/main.59df1984.js"
+    "static/css/main.1789d0b2.css",
+    "static/js/main.cfd02ad1.js"
   ]
 }
