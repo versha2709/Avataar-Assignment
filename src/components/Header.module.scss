@@ -1,5 +1,6 @@
 @import './../styles/variable.scss';
 
+
 .header {
     height: $header-height;
     background: $bg2;
@@ -46,12 +47,18 @@
         @include breakpoint(md) {
             display: initial;
         }
+        @include breakpoint($sm) {
+            display: initial;
+        }
     }
     &__toggler {
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        @include breakpoint(md) {
+            display: none;
+        }
         @include breakpoint(md) {
             display: none;
         }
@@ -106,6 +113,7 @@
         background: initial;
         width: auto;
         padding: 0 $spacing-lg;
+
 
         &__item {
             padding: 0 $spacing-lg;

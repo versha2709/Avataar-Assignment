@@ -1,4 +1,3 @@
-// ImageSlider.js
 import React, { useState } from 'react';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import './../styles/variable.scss';
@@ -24,16 +23,24 @@ const ImageSlider = ({ slides }) => {
     <section className='slider-container'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <div className='slider'>
+        <div className='prev-image'>
+          <img src={slides[(current - 1 + length) % length].image} alt='prev' />
+        </div>
         {slides.map((slide, index) => (
           <div
             className={index === current ? 'slide active' : 'slide'}
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt={`slide-${index}`} className='image' />
+              <div className='current-image'>
+                <img src={slide.image} alt={`slide-${index}`} className='image' />
+              </div>
             )}
           </div>
         ))}
+        <div className='next-image'>
+          <img src={slides[(current + 1) % length].image} alt='next' />
+        </div>
       </div>
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
     </section>

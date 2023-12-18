@@ -27,34 +27,33 @@ const Header = () => {
               ELECTRONICS
             </a>
             <a className={styles.nav__item} href={"/"}>
-                            BOOKS
+              BOOKS
                         </a>
-                        <a className={styles.nav__item} href={"/"}>
-                            MUSIC
-                        </a>
-                        <a className={styles.nav__item} href={"/"}>
-                            MOVIES
-                        </a>
-                        <a className={styles.nav__item} href={"/"}>
-                            CLOTHING
-                        </a>
-                        <a className={styles.nav__item} href={"/"}>
-                            GAMES
-                        </a>
+                        
                         <div className={`${styles.nav__item} ${styles.more} ${moreActive ? 'active' : ''}`} onClick={toggleMoreDropdown}>
                             MORE
                             <div className={`${styles.dropdown}`}>
                                 <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
                                     FURNITURE
                                 </a>
-                                <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
-                                    ELECTRONICS
-                                </a>
+                
                                 <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
                                     TRAVEL
                                 </a>
                                 <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
                                     BOTANICAL CATEGORY NAME
+                                </a>
+                                <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
+                                    GAMES
+                                </a>
+                                <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
+                                    MUSIC
+                                </a>
+                                <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
+                                    MOVIES
+                                </a>
+                                <a className={`${styles.nav__item} ${styles.dropdown__item}`} href={"/"}>
+                                    CLOTHING
                                 </a>
 
               </div>
